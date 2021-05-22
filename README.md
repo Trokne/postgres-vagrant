@@ -1,1 +1,12 @@
-postgres-vagrant
+# POSTGRESS WITH VAGRANT
+
+Установка Postgres с помощью Vagrant. 
+
+## Установка
+1. Склонировать репозиторий
+2. Запустить vagrant up в директории
+3. Проверить наличиее postgres командой `sudo su - postgres`
+
+### Удаление
+1. `vagrant destroy` для выключения и удаления виртуальной машины
+2. Удалить склонированную папку :)
